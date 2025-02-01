@@ -1,8 +1,41 @@
-# React + Vite
+### API-Based Quiz Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Project Overview
 
-Currently, two official plugins are available:
+This is a **Quiz Web Application** built with **React.js and Vite** that fetches quiz questions from an API. It provides an engaging quiz experience with gamification features like a timer and score tracking.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Features
+
+- Fetches quiz questions dynamically from an API.
+- Timer-based question answering.
+- Score calculation at the end of the quiz.
+- Summary of attempted questions with correct answers.
+- Responsive and user-friendly UI.
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React.js, Vite, React Router, CSS
+- **State Management**: useState, useEffect
+- **API Handling**: Fetch API
+
+## 📦 Installation & Setup
+
+Follow these steps to set up the project locally:
+
+# Step 1: Clone the repository
+
+git clone https://github.com/username/repository-name.git
+
+# Step 2: Navigate to the project directory
+
+cd repository-name
+
+# Step 3: Install dependencies
+
+npm install # or use yarn install / pnpm install
+
+# Step 4: Start the development server
+
+npm run dev # or use yarn dev / pnpm dev
+
+# Step 5: Open the provided URL in the browser (default: http://localhost:5173/)
