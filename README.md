@@ -32,11 +32,11 @@ cd repository-name
 
 ### Step 3: Install dependencies
 
-npm install # or use yarn install / pnpm install
+npm install (or use yarn install / pnpm install)
 
 ### Step 4: Start the development server
 
-npm run dev # or use yarn dev / pnpm dev
+npm run dev (or use yarn dev / pnpm dev)
 
 ### Step 5: Open the provided URL in the browser (default: http://localhost:5173/)
 
