@@ -1,0 +1,253 @@
+.startquiz {
+    margin: auto;
+    background-color: white;
+    font-size: 30px;
+    padding: 20px 30px;
+    color: rgb(9, 9, 121);
+    text-decoration: none;
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+}
+
+.startquiz:hover {
+    transform: scale(1.1);
+}
+
+.rules {
+    margin: auto;
+    background-color: white;
+    font-size: 30px;
+    padding: 20px 30px;
+    color: rgb(9, 9, 121);
+    border-radius: 10px;
+}
+
+.rules>h1 {
+    margin: 1rem;
+    font-size: 2rem;
+    border-bottom: 1px solid rgb(9, 9, 121);
+}
+
+.rules-list>li {
+    text-align: start;
+    font-size: 1.2rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 15px;
+    font-size: 1rem;
+}
+
+.butn {
+    padding: 10px;
+    transition: all 0.5s ease;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.butn:hover {
+    transform: scale(1.05);
+}
+
+.btn-exit {
+    border: 1px solid rgb(9, 9, 121);
+    color: rgb(9, 9, 121);
+}
+
+.btn-continue {
+    background-color: rgb(9, 9, 121);
+    color: white;
+}
+
+.quiz {
+    width: 650px;
+    margin: 30px 15px;
+    padding: 25px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    border-radius: 7px;
+}
+
+.quiz h1 {
+    font-size: 2.5rem;
+    color: rgb(9, 9, 121);
+    border-bottom: 1px solid rgb(9, 9, 121);
+}
+
+.progress.timeline {
+    margin: 1rem 0;
+    height: 10px;
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.shake {
+    animation: shake 0.1s linear 6s forwards infinite;
+}
+
+.progress-bar {
+    height: 100%;
+    transition: width 0.1s linear;
+}
+
+.progressAnim {
+    animation: progressAnim 10s linear forwards;
+}
+
+@keyframes progressAnim {
+    0% {
+        width: 0%;
+        background-color: green;
+    }
+
+    50% {
+        width: 50%;
+        background-color: yellow;
+    }
+
+    100% {
+        width: 100%;
+        background-color: red;
+    }
+}
+
+@keyframes shake {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(1deg);
+    }
+
+    50% {
+        transform: rotate(0deg);
+    }
+
+    75% {
+        transform: rotate(-1deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.question-section {
+    font-size: 24px;
+    font-weight: 600;
+    /* margin-bottom: 40px; */
+}
+
+.question-count {
+    font-size: 28px;
+    margin-bottom: 10px;
+    text-align: start;
+    color: rgb(9, 9, 121);
+}
+
+.question-text {
+    text-align: start;
+    margin-bottom: 20px;
+}
+
+.answer-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.answer-options {
+    text-align: start;
+}
+
+.answer-options:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #333;
+    border: 2px solid #333;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+.score-section {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.playAgain-btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: rgb(9, 9, 121);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.playAgain-btn:hover {
+    transform: scale(1.05);
+}
+
+.navigation-buttons {
+    margin-top: 35px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.navigation-buttons button:hover {
+    color: #fff;
+    background: #000;
+}
+
+.summary>h1 {
+    margin: 50px;
+}
+
+.summary-section {
+    border: 1px solid rgb(9, 9, 121);
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    text-align: start;
+}
+
+.question {
+    border-bottom: 1px solid rgb(9, 9, 121);
+    color: rgb(9, 9, 121);
+}
+
+.correct-ans {
+    color: green;
+}
+
+.selected-ans {
+    color: blue;
+}
