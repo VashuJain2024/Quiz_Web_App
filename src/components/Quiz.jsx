@@ -14,12 +14,12 @@ const Quiz = () => {
   const [score, setScore] = useState(0);
   const [selectedAnswers, setSelectedAnswers] = useState([]);
   const [progressValue, setProgressValue] = useState(0);
-  // const apiUrl =
-  //   "https://api.allorigins.win/get?url=" +
-  //   encodeURIComponent("https://api.jsonserve.com/Uw5CrX");
-  const proxyUrl = "https://cors-anywhere.herokuapp.com/";
-  const targetUrl = "https://api.jsonserve.com/Uw5CrX";
-  const apiUrl = proxyUrl + targetUrl;
+  const apiUrl =
+    "https://api.allorigins.win/get?url=" +
+    encodeURIComponent("https://api.jsonserve.com/Uw5CrX");
+  // const proxyUrl = "https://cors-anywhere.herokuapp.com/";
+  // const targetUrl = "https://api.jsonserve.com/Uw5CrX";
+  // const apiUrl = proxyUrl + targetUrl;
 
   // Fetch questions from API
   useEffect(() => {
