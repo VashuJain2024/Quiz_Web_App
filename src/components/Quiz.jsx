@@ -17,9 +17,9 @@ const Quiz = () => {
   // const apiUrl =
   //   "https://api.allorigins.win/get?url=" +
   //   encodeURIComponent("https://api.jsonserve.com/Uw5CrX");
-  // const proxyUrl = "https://cors-anywhere.herokuapp.com/";
-  // const targetUrl = "https://api.jsonserve.com/Uw5CrX";
-  // const apiUrl = proxyUrl + targetUrl;
+  const proxyUrl = "https://cors-anywhere.herokuapp.com/";
+  const targetUrl = "https://api.jsonserve.com/Uw5CrX";
+  const apiUrl = proxyUrl + targetUrl;
 
   // Fetch questions from API
   useEffect(() => {
@@ -27,7 +27,7 @@ const Quiz = () => {
     const signal = controller.signal;
     const fetchData = async () => {
       try {
-        const response = await fetch("https://api.jsonserve.com/Uw5CrX", { signal });
+        const response = await fetch(apiUrl, { signal });
         if (!response.ok) {
           throw new Error("Network response was not ok");
         }
