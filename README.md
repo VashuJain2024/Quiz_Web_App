@@ -1,4 +1,4 @@
-### API-Based Quiz Web App
+# API-Based Quiz Web App
 
 ## 🚀 Project Overview
 
@@ -22,20 +22,24 @@ This is a **Quiz Web Application** built with **React.js and Vite** that fetches
 
 Follow these steps to set up the project locally:
 
-# Step 1: Clone the repository
+### Step 1: Clone the repository
 
 git clone https://github.com/username/repository-name.git
 
-# Step 2: Navigate to the project directory
+### Step 2: Navigate to the project directory
 
 cd repository-name
 
-# Step 3: Install dependencies
+### Step 3: Install dependencies
 
 npm install # or use yarn install / pnpm install
 
-# Step 4: Start the development server
+### Step 4: Start the development server
 
 npm run dev # or use yarn dev / pnpm dev
 
-# Step 5: Open the provided URL in the browser (default: http://localhost:5173/)
+### Step 5: Open the provided URL in the browser (default: http://localhost:5173/)
+
+## 📸 Screenshots
+
+## 📻 Output
