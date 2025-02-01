@@ -24,7 +24,7 @@ Follow these steps to set up the project locally:
 
 ### Step 1: Clone the repository
 
-git clone https://github.com/username/repository-name.git
+git clone https://github.com/VashuJain2024/Quiz_Web_App.git
 
 ### Step 2: Navigate to the project directory
 
